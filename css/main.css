@@ -1,0 +1,42 @@
+ body {
+     padding: 100px;
+    
+     text-align: center;
+     flex: row;
+     justify-content: center;
+     
+ }
+
+ span {
+     font-size: 30px;
+     background-color: #90C385;
+
+ }
+
+ div {
+     display: flexbox;
+     flex-direction: column;
+     justify-content: center;
+ }
+
+ ul {
+     display: flexbox;
+     flex-direction: row;
+     justify-content: center;
+     
+ }
+
+ li{
+     display: flexbox;
+     justify-content: center;
+     color: #FF9E40;
+     padding: 0,0,0, 10px;
+     
+ }
+
+ .delete {
+     background-color: #DE6165;
+    padding: 0, 10px,0,0;
+    margin-right: 10px;
+ }
+ 
