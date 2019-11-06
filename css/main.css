@@ -8,8 +8,13 @@
  }
 
  span {
-     font-size: 30px;
+     font-size: 25px;
      background-color: #90C385;
+     color:white;
+     padding-top: 13px;
+     padding-bottom: 13px;
+     padding-left: 45px;
+     padding-right: 45px;
 
  }
 
@@ -19,24 +24,50 @@
      justify-content: center;
  }
 
- ul {
-     display: flexbox;
+ /* ul {
+     display: flex;
      flex-direction: row;
      justify-content: center;
-     
+     width: 300px;
+     align-items: flex-end;
+      */
  }
 
- li{
-     display: flexbox;
-     justify-content: center;
+  li{
+      width: 300px;
+      height: 300px;
+     display: flex;
+     flex-direction:row;
+     justify-content: right;
      color: #FF9E40;
-     padding: 0,0,0, 10px;
+     padding: 0,0,0, 300px;
+     align-items: right; 
      
  }
 
- .delete {
+ #delete {
      background-color: #DE6165;
     padding: 0, 10px,0,0;
     margin-right: 10px;
+    font-size: 15px;
+    color: #FF9E40;
+    border: 0;
+
  }
  
+ #add-sk {
+     background-color: white;
+     border-color: #90C385;
+     margin-left: 10px;
+     color:#90C385;
+     height: 45px;
+     width: 80px;
+     font-size: 15px;
+     justify-content: center;
+ }
+
+ #skill-item {
+     border-color: #90C385;
+     width: 200px;
+     height: 35px;
+ }
